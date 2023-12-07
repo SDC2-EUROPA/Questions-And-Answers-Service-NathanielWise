@@ -1,5 +1,5 @@
 CREATE TABLE questions (
-  id INT unsigned NOT NULL,
+  id INT unsigned NOT NULL AUTO_INCREMENT,
   product_id INT unsigned NOT NULL,
   body VARCHAR(255) NOT NULL,
   date_written BIGINT unsigned NOT NULL,
